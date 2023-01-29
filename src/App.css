@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide{
+  width: 100vw;
+  
+}
+
+.container{
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  border: 4px solid black;
+  margin-bottom: 2rem;
+  transition: all 1s ease;
+  overflow: hidden;
+}
+
+.card{
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  background-color: greenyellow;
+  margin: 1rem 1rem;
+}
+
+.bn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.bt{
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.hm{
+  width: 50%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
